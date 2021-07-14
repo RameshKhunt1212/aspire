@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> aspire web class </title>
+<link rel="stylesheet" type="text/css" href="style10.css">	
+</head>
+<body>
+<div class="drop">
+	<h1> Aspire multimedia </h1>
+		<ul>
+			<li> Web design
+				<ul>
+				    <li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/page3.html"> Java script </a></li>
+				    <li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/page.html"> Html </a></li>
+				    <li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/page2.html"> css </a></li>
+				    <li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/page4.html"> Jquery </a></li>
+			    </ul>
+			</li>
+			    
+			<li> Web devloping 
+				<ul>
+					<li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/C%20programming.html"> C programing </a></li>
+					<li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/C++.html"> C++ programing </a></li>
+					<li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/PHP.html"> Php </a></li>
+					<li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/Co-ordinator.html"> Co-ordinatior </a></li>
+				</ul>
+			</li>
+			<li> Graphic design 
+			<ul>
+					<li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/illustrator.html"> illustrator </a></li>
+					<li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/photoshop.html"> Photoshop </a></li>
+					<li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/corel%20draw.html"> Coral draw </a></li>
+					<li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/video%20editor.html">Video editor </a> </li>
+				</ul>
+			</li>
+			<li> Digital marketing 
+			<ul>
+					<li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/social%20media.html"> Social media </a></li>
+					<li><a href="file:///F:/Narpat%20Rajpurohit/New%20folder/Wordpress.html"> Word press </a></li>
+			</li>
+			</ul>
+		</li>
+		</ul>
+		</div>
+	<div class="title"> 
+		<h2> Admission Form </h2>
+	</div>
+	<form>
+				<div id="form">
+		<label>Name:-</label>
+		<input type="text" id="fname" ><br><br>
+		<label>Father's Name:-</label>
+		<input type="text" id="sname" ><br><br>
+		<label>Address:-</label>
+		<input type="text" id="Address"><br><br>
+		<label>DOB:-</label>
+		<input type="date" id="DOB"><br><br>
+		<label>courses</label>
+		<select value="" id="option">
+			  <option>Graphic Design</option>
+			  <option>Web Design</option>
+			  <option>Web Devloping</option>
+			  <option>CCC</option>
+			
+		</select><br><br>
+		<button>submit</button>
+	</form>
+	<script src="jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#fname,#Pass,#option").focus(function(){
+				$(this).css("background-color","#c2c2c2");
+			});
+		});
+
+		$(document).ready(function(){
+			$("#sname,#Pass,#option").focus(function(){
+				$(this).css("background-color","#c2c2c2");
+			});
+		});
+		$(document).ready(function(){
+			$("#Address,#Pass,#option").focus(function(){
+				$(this).css("background-color","#c2c2c2");
+			});
+		});
+
+		$(document).ready(function(){
+			$("#DOB,#Pass,#option").focus(function(){
+				$(this).css("background-color","#c2c2c2");
+			});
+		});
+
+
+		$(document).ready(function(){
+			$("#fname,#Pass,#option").blur(function(){
+				$(this).css("background-color","");
+			});
+		});
+
+		$(document).ready(function(){
+			$("#option").change(function(){
+				$(this).css("background-color","#c2c2c2");
+			});
+		});
+
+		$(document).ready(function(){
+			$("#fname,#Pass").select(function(){
+				$(this).css("background-color","#c2c2c2");
+			});
+		});
+
+		$(document).ready(function(){
+			$("form").submit(function(){
+				alert("form submit");
+			});
+		});
+	</script>
+</div>
+<h3>“Education is the passport to the future,<br> for tomorrow belongs to those who prepare for it today.”</h3>
+</body>
+</html>
