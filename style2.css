@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+p{
+	background-color: pink;
+	font-size: 15px;
+	padding: 10px;
+	text-indent: 7%;
+	font-family: Adobe Kaiti Std;
+}
+p font{
+	width: 100px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	position: relative;
+	animation-name: loverun;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 7s;
+	font-weight: bold;
+
+}
+@keyframes loverun{
+	form{ left: 0px;}
+	to{ left: 63%; }
+}
+header{
+		width: 100%;
+		height: 100vh;
+		background-image:url("14.jpg");
+		background-size: cover;
+		background-position: center;
+		 
+}
+h1{
+	color: black;
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	font-size: 350%;
+	font-variant: small-caps;
+	text-shadow: 3px 2px 2px white; 
+	font-family: Charlemagne Std;
+}
+h2{
+	color: black;
+	position: absolute;
+	top: 25%;
+	left:5%;
+	font-size: 300%;
+	font-style: Bold Italic;
+	font-family: Times New Roman;
+}
+h3{
+	color: white;
+	position: absolute;
+	top: 32%;
+	left:4%;
+	font-size: 130%;
+	font-family: Adobe Kaiti Std;
+}
+h4{
+	color: black;
+	position: absolute;
+	top: 67%;
+	left:5%;
+	font-size: 300%;
+	font-family: Times New Roman ;
+}
+h5{
+	color: white;
+	position: absolute;
+	top: 73%;
+	left:2%;
+	font-size: 150%;
+	font-family: Adobe Kaiti Std;
+}
+h6{
+	position: absolute;
+	top: 90%;
+	right:6%;
+	font-size: 200%;
+	color: white;
+	background-color: gray;
+	letter-spacing: 2px;
+	text-shadow: 2px 1px 1px black;
+	border-style: groove;
+	border-width: 5px;
+	border-color: gray #d3d3d3; 
+	border-width: 7px;
+
+}
+body a{
+	color: white;
+	font-variant: small-caps;
+	background-color: gray;
+	letter-spacing: 2px;
+	text-shadow: 2px 1px 1px black;
+	border-style: groove;
+	border-width: 5px;
+	border-color: gray #d3d3d3; 
+	position: absolute;
+	top: 94%;
+	left: 2%;
+	font-size: 100%;
+	text-decoration-line: none;
+}

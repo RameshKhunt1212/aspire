@@ -1,0 +1,50 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("cd.jpg");
+	background-size: cover;
+	background-position: center;	
+}
+h1{
+	float: left;
+}
+h1{
+	position: absolute;
+	top: 4%;
+	left: 2%;
+	color: #32cd32;
+	font-family: Tekton Pro;
+	font-size: 300%;
+}
+.par{
+	position: absolute;
+	top: 20%;
+	left: 2%;
+	color: white;
+	font-family: Maiandra GD;
+	font-size: 160%;
+	text-shadow: 5px 5px 19px black;
+}
+.end{
+	position: absolute;
+	top: 90%;
+	left: 70%;
+	color: white;
+	font-family: viyola;
+	font-size: 140%;
+}
+body a{
+	position: absolute;
+	top: 90%;
+	left: 2%;
+	color: white;
+	font-size: 200%;
+	text-decoration-line: none;
+	background-color: green;
+	border-style: groove;
+	border-color: white gray;
+}

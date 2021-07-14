@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("ss.jpg");
+	background-size: cover;
+	background-position: center;	
+}
+h1{
+	float: left;
+}
+h1{
+	position: absolute;
+	top: 5%;
+	left: 1%;
+	color: white;
+	font-family: Swis721 Blk BT Black;
+	text-shadow: 2px 2px 17px white;
+	font-size: 200%;
+}
+.par{
+	position: absolute;
+	top:20%;
+	left: 2%;
+	color: #a1caf1;
+	font-family: Estrangelo Edessa;
+	font-size: 180%;
+  
+}
+.pp{
+	position: absolute;
+	top: 20%;
+	left: 60%;
+	color: #a1caf1;
+	font-size: 120%;
+	font-family:Estrangelo Edessa; 
+}
+.end{
+	position: absolute;
+	top: 90%;
+	left: 70%;
+	color: #a1caf1;
+	font-size: 230%;
+	font-family:Estrangelo Edessa; 
+}
+body a{
+	position: absolute;
+	top: 92%;
+	left: 2%;
+	color: black;
+	font-size: 150%;
+	text-decoration-line: none;
+	background-color: #035096;
+	border-style: groove;
+	border-color: white gray;
+}

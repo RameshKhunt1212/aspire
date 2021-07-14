@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("wp.jpg");
+	background-size: cover;
+	background-position: center;	
+}
+h1{
+	float: left;
+}
+h1{
+	position: absolute;
+	top: 4%;
+	left: 2%;
+	color: white;
+	font-family: Swis721 Blk BT Black;
+	text-shadow: 1px 1px 17px white;
+	font-size: 200%;
+}
+h2{
+	float: left;
+}
+h2{
+	position: absolute;
+	top: 15%;
+	left: 2%;
+	color: #0095b6;
+	font-size: 200%;
+	font-family: viyola;
+	text-shadow: 3px 3px 19px #0095b6;
+}
+.pp{
+	position: absolute;
+	top: 25%;
+	left: 2%;
+	color: white;
+	font-size: 200%;
+	font-family: serif;
+}
+body a{
+	color: white;
+	font-variant: small-caps;
+	background-color: gray;
+	letter-spacing: 2px;
+	text-shadow: 2px 1px 1px black;
+	border-style: groove;
+	border-width: 5px;
+	border-color: gray #d3d3d3; 
+	position: absolute;
+	top: 92%;
+	left: 2%;
+	color: white;
+	font-size: 150%;
+	text-decoration-line: none;
+}
+.end{
+	position: absolute;
+	top: 91%;
+	left: 80%;
+	color: white;
+	font-size: 200%;
+
+}
